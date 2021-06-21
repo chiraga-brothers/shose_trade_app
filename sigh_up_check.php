@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $user_name = $_POST["user_name"];
     $mail = $_POST["mail"];
     $password = $_POST["password"];
-    $addres = $_POST["addres"];
+    $address = $_POST["address"];
     $phone = $_POST["phone"];
 }
 
@@ -37,7 +37,7 @@ if (isset($_POST["submit"])) {
 {$email}
 
 【 住所 】 
-{$addres}
+{$address}
 
 【 電話番号 】 
 {$phone}
@@ -85,7 +85,7 @@ EOM;
             <input type="hidden" name="user_name" value="<?php echo $user_name; ?>">
             <input type="hidden" name="mail" value="<?php echo $mail; ?>">
             <input type="hidden" name="password" value="<?php echo $password; ?>">
-            <input type="hidden" name="addres" value="<?php echo $addres; ?>">
+            <input type="hidden" name="address" value="<?php echo $address; ?>">
             <input type="hidden" name="phone" value="<?php echo $phone; ?>">
             <h1 class="contact-title">会員登録 内容確認</h1>
             <p>お客様情報はこちらで宜しいでしょうか？<br>よろしければ「送信する」ボタンを押して下さい。</p>
