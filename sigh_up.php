@@ -42,7 +42,7 @@ include('functions.php');
                 </div>
                 <div>
                     <label>住所<span>必須</span></label>
-                    <input type="text" name="addres" placeholder="例 ○県○市○区○○ ○丁目○-○-○○○" value="">
+                    <input type="text" name="address" placeholder="例 ○県○市○区○○ ○丁目○-○-○○○" value="">
                 </div>
                 <div>
                     <label>電話番号<span>必須</span></label>
